@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f61be7f34a7e431e84316e2eaea36933" Name="Diagram1">
+        <EntityTypeShape EntityType="shapki_sharfiModel.Categories" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="shapki_sharfiModel.Colors" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="shapki_sharfiModel.CountryID" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="shapki_sharfiModel.Materials" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="shapki_sharfiModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="shapki_sharfiModel.FK_Product_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="shapki_sharfiModel.FK_Product_Colors" ManuallyRouted="false" />
+        <AssociationConnector Association="shapki_sharfiModel.FK_Product_CountryID" ManuallyRouted="false" />
+        <AssociationConnector Association="shapki_sharfiModel.FK_Product_Materials" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
